@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite' // 1. Import Tailwind
 
 export default defineConfig({
-  base: '/np_landingpage/',
+  // base: '/np_landingpage/',
+  base: '/',
   plugins: [
     react(),
     tailwindcss(), // 2. Add Tailwind plugin here
