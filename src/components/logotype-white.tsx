@@ -1,5 +1,3 @@
-import React from 'react';
-
 const LogoWhite = ({ className = 'text-white', ...props }) => {
   return (
     <svg

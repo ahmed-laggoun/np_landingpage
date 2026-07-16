@@ -1,5 +1,3 @@
-import React from 'react';
-
 const LogoBlack = ({ className = '', ...props }) => {
   return (
     <svg

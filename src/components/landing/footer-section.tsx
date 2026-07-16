@@ -2,7 +2,6 @@ import { useLang } from '../../pages/website';
 import { GooglePlayButton } from './google-play-button';
 import { AppleStoreButton } from './apple-store-button';
 import {
-  Truck,
   MapPin,
 } from "lucide-react";
 import AppLogoIcon from '../app-logo-icon';
@@ -13,7 +12,7 @@ import { FaSnapchat } from "react-icons/fa6";
 
 // ─── Footer ───────────────────────────────────────────────────────────────────
 export const FooterSection = () => {
-  const { t, isRTL } = useLang();
+  const { t } = useLang();
 
   return (
     <footer className="bg-[#071f26] border-t border-[#2fbabf]/15 py-14">

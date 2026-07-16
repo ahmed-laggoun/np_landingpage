@@ -1,7 +1,6 @@
 import { useLang } from "../../pages/website";
 import { useEffect, useState } from "react";
 import { motion } from "motion/react";
-import AppLogo from "../app-logo";
 import { ArrowRight, Globe, Menu, X } from "lucide-react";
 import LogoWhite from "../logotype-white";
 import AppLogoIcon from "../app-logo-icon";
